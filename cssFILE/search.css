@@ -1,0 +1,95 @@
+ body{
+background-color: rgba(150, 169, 187, 1);
+font-family:'inter',sans-serif;
+}
+
+.logo{
+    position:absolute;
+    top: 0px;
+    left:0px;
+   margin-left: 40px;
+   margin-top: 0px;
+
+}
+
+.logo img{
+height: 150px;
+width: 200px;
+}
+
+.nav-bar{
+    /*partie nav positionement et color */
+background-color:rgba(127, 154, 174, 1);
+border-radius:  500px;
+height: 10%;
+width: 53%;
+position:absolute;
+top:25px;
+right: 10px;
+
+/* partie de text de nav */
+display:flex;
+justify-content: space-around;
+align-items: center;
+color: rgba(4, 58, 98, 1);
+}
+.nav-bar a {
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    gap: 3px;
+    border:3px solid black;
+    
+    position:absolute;
+    height: 80%;
+    width: 85%;  /*pourquoi quand je mis l width a 100% it creat a scroll to right ?*/
+    right: 120px;
+    top: 100px;
+    
+
+}
+
+.container .title{
+    font-weight: bolder;
+    color:rgba(4, 58, 98, 1);
+    font-size: 3,4em;
+    justify-self: start;
+    align-self:flex-start;
+}
+
+.submition{
+background-color:rgba(202, 202, 202, 1);
+align-self: center;
+display:flex;
+flex-direction:row;
+justify-content: end;
+align-items: center;
+height: 35px;
+width:90%;
+border-radius: 10px;
+
+}
+
+.submition .accept{
+    background-color: rgba(39, 223, 122, 1);
+    height: 60%;
+    width: 90px;
+    border-style: none;
+    border-radius: 15px;
+    margin: 3px 5px;
+    justify-self: center;
+    color:rgba(0, 50, 15, 1);
+}
+
+.submition .refuse{
+    background-color: rgba(255, 1, 1, 1);
+    height: 60%;
+    width: 90px;
+    border-style: none;
+    border-radius: 15px;
+    margin: 3px 5px;
+    justify-self: center;
+}

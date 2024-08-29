@@ -1,0 +1,285 @@
+body {
+  background-image: url("../images/submiting-pic.jpg");
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'inter', sans-serif;
+  
+}
+
+.logo{
+    position:absolute;
+    top: 0px;
+    left:0px;
+   margin-left: 40px;
+   margin-top: 0px;
+
+}
+
+.logo img{
+height: 150px;
+width: 200px;
+}
+
+
+.nav-bar{
+    /*partie nav positionement et color */
+background-color:rgba(239, 130, 189, 1);
+border-radius:  500px;
+height: 10%;
+width: 53%;
+position:absolute;
+top:10px;
+right: 10px;
+
+/* partie de text de nav */
+display:flex;
+justify-content: space-around;
+align-items: center;
+color: rgba(4, 58, 98, 1);
+}
+.nav-bar a {
+    text-decoration: none;
+}
+
+/*sign in text in home */
+
+.signin-text-submit{
+    background-color: black;
+position:absolute;
+top :20%;
+right: 2%;
+padding-top:9px;
+flex: auto;
+
+}
+
+.signin-submit{ 
+    font-size: 1.1em;
+color:rgba(4, 58, 98, 1); 
+font-weight: bold;
+position: absolute;
+top:100px;
+right: 20px;
+width: 500px;
+}
+
+
+.signin-title-submit{ 
+    font-size:3.3em;
+    font-weight:bolder;
+    color:rgba(4, 58, 98, 1);
+    margin-right: 2px;
+    position: absolute;
+    right: 310px;
+    top: 0px;
+    width: 200px;
+    }
+
+    .signin-butt-submit button{
+        background-color: rgba(239, 130, 189, 1);
+        border:none;
+        border-radius:30px;
+        position:absolute;
+        bottom:20px;
+        left:45%;
+        width:16%;
+        height:auto;
+        flex: auto;
+        }
+        
+
+
+        /* pop up box after sign in button click */
+        
+        
+
+.pop-box{
+    background-color: rgba(239, 130, 189, 1);
+    position:absolute;
+    top: 54%;
+    left: 35%;
+    width:  28%;
+    height: 60%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 9px 9px 0px rgba(252, 87, 87, 0.516);
+    border-radius: 15px;
+    display: none;
+}
+
+.pop-box img{
+    height: 100px;
+    width: 140px;
+   position: absolute;
+    top:1px;
+   left: 1px;
+}
+
+.pop-box-title{
+    color:rgba(4, 58, 98, 1);
+    font-weight:bolder ;
+    font-size: 1.8em;
+    margin-bottom: 0px !important;
+  
+    }
+    
+    .pop-box-text{
+    color: rgba(4, 58, 98, 1);
+    font-weight: medium;
+    font-size: 0.8em;
+    margin-top: 0px !important;
+    
+    }
+
+    .text-container{
+        margin-bottom:15px;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .input-containern form{
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 35px;
+      }
+  
+      .input-container input{
+        background-color: rgba(4, 146, 206, 1);/*hna*/
+          width: 85%;
+          height: 22px;
+          margin-bottom:10px;
+          padding-left: 15px;
+          font-weight: bold;
+          font-size: 0.7em;
+          border:none;
+      }
+      
+  
+      .button-container{
+         
+          position: absolute;
+          top:85%;
+          left:5%;
+          border-radius:5px;
+          font-size: 1.3em;
+          font-weight:medium;
+          background-color: rgba(4, 146, 206, 1); 
+          border-radius: 10px; 
+          color: rgba(0, 0, 0, 1);
+          font-size: 1.6em;
+          border:none;
+          cursor: pointer !important;
+          margin-left: 25%;
+          width: 140px;
+      } 
+
+      .input-container form{
+        margin-top: 20px;
+      }
+
+      .exit{
+        position:absolute;
+        top:15px !important;
+        right: 45px !important;
+    
+    }
+    .exit img{
+        height: 35px;
+        width: 35px;
+    }
+
+/* submition page after sign in   (box of submition) */
+
+.submition-box{
+    position:absolute;
+    height: 65%;
+    width: 30%;
+    top: 55%;
+    left:35%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 30px;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.3);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap:5px;
+}
+
+
+.text-submition-box{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-wrap:wrap;
+}
+
+.inbox-title {
+    position: absolute;
+    top: 0px;
+    right: 27%;
+    font-weight: bold;
+    font-size:2.2em;
+    color:rgba(4, 58, 98, 1);
+}
+
+.inbox-text{
+font-weight:medium;
+font-size: 1.1em;
+color:rgba(4, 58, 98, 1);
+}
+
+.file-name{
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.3);
+    height: 30px;
+    width: 325px;
+
+}
+
+.file-name::file-selector-button{
+     background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.3);
+    height: 30px;
+    width: 325px;
+}
+
+.submit-butt-container{
+/* position: absolute;
+bottom: 35px; */
+margin-top: 50px;
+margin-left: 35px;
+height: auto;
+width: auto;
+}
+.submit-butt-container button{
+
+margin-left: 60px;
+
+}
+
+.submit-butt{
+    background-color: rgba(239, 130, 189, 1);
+   height:32px;
+   width: 125px;
+    border:none;
+    border-radius: 15px;
+
+}
