@@ -22,6 +22,12 @@
             <a href="submit.php">SUBMIT</a>
         </nav>
 
+        <form name="logout" action="../php/logout.php" method="POST">
+            <button type="submit" name="logout" class="submit-butt" style="background-color:rgba(239, 130, 189, 1); margin-top:70px;
+         margin-left:88%;color:rgba(4, 58, 98, 1);">Log
+                out</button>
+        </form>
+
 
         <div class="text-container">
 
